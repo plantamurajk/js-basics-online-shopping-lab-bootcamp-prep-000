@@ -21,9 +21,8 @@ function viewCart() {
   if (cart.length === 0){
     return ("Your shopping cart is empty.")
   }
-  else  message = "In your cart, you have"
-  for (let i = 0; i < cart.length; i++){
-    message = "In your cart, you have"
+  else  message = `In your cart, you have ${cart[0].itemName} at $${cart[0].itemPrice}.`
+  for (let i = 0; i < cart.length; i){
     
   }
 }
