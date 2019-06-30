@@ -14,6 +14,7 @@ function addToCart(item) {
  pair.itemName = item
  pair.itemPrice = Math.random() * 100
  cart.push(pair)
+ return item + ` has been added to your cart.`
 }
 
 function viewCart() {
