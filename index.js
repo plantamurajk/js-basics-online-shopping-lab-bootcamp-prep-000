@@ -13,6 +13,7 @@ function addToCart(item) {
  var pair = {}
  pair.itemName = item
  pair.itemPrice = Math.random() * 100
+ cart.push(pair)
 }
 
 function viewCart() {
